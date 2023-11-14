@@ -1,0 +1,16 @@
+
+
+public class testarProduto{
+    public static void main(){
+        Produto bolachaRecheada = new Produto(); //Cria instancia/objeto
+        
+        bolachaRecheada.nome = "Bolacha recheada treloso morango 120g";
+        bolachaRecheada.preco = 2.99;
+        
+        bolachaRecheada.informarNome();
+        bolachaRecheada.informarPreco();
+        bolachaRecheada.fazerPromocao();
+        bolachaRecheada.informarPreco();
+        
+    }
+}
